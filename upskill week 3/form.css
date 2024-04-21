@@ -1,0 +1,121 @@
+h1 {
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+}
+
+body{
+    height: 100vh;
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+padding: 0;
+
+}
+
+
+.wrapper{
+    width: 90%;
+    padding: 2rem;
+        width: 80%;
+        padding: 3rem;
+        margin: 40px auto;
+        background: rgba(233, 153, 6, 0.952);
+        border-radius: 10px;
+        /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); */
+    }
+
+
+    fieldset{
+        border: 2px solid #660000;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(56, 5, 243);
+    border-image: initial;
+}
+
+.comm{
+    margin-top: 10px;
+}
+
+label {
+    display: inline;
+    padding-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+textarea {
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px 0;
+    display: block;
+}
+
+.btn-btn-primary{
+    font-size: 1rem;
+    margin: 2rem 0;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    font-weight: bold;
+}
+.btn-btn-primary:hover{
+    background-color: blue;
+    color: rgba(233, 153, 6, 0.952);
+    transition-duration: 0.3s;
+
+}
+legend {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.user-input {
+    width: 100%;
+    padding: 4px;
+    margin: 0 0 15px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+select {
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #200ae0;}
+
+   
+   
+
